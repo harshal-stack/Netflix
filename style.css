@@ -1,0 +1,165 @@
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0rem 4.5rem;
+    border-bottom: 0.6rem solid #222222;
+    /* z-index: -100; */
+}
+
+.logo img {
+    width: 9rem;
+}
+
+#pet-select {
+    height: 2.2rem;
+    width: 6rem;
+
+}
+
+#pet-select {
+    background: transparent;
+    color: white;
+    background-color:
+        rgba(0, 0, 0, 0.4);
+    text-align: center;
+    cursor: pointer;
+}
+
+.hedear_button {
+    background-color: red;
+    color: white;
+    width: 6rem;
+    height: 2.2rem;
+    border: none;
+    margin-left: 1rem;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header_data {
+    max-width: 90%;
+}
+
+input {
+    width: 30rem;
+    height: 3.5rem;
+    padding: 0 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.search {
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.center {
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================= responsive ==============================================*/
+@media only screen and (max-width: 600px) {
+   
+
+    .main {
+        padding: 0;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+
+    }
+
+    .grid-center {
+        display: grid;
+        place-items: center;
+        font-size: 15px;
+        color: white;
+        padding-top: 5rem;
+        margin-left: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+}
