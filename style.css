@@ -94,6 +94,93 @@ input {
 
 
 
+/* =================================================== */
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 0;
+        height: 45rem;
+    }
+
+    .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        margin: auto;
+
+    }
+   
+    .grid-center h1{
+        width: 110%;
+        display: grid;
+        place-items: center;
+        font-size: 34px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .header_data p {
+        margin-top: 1rem;
+    }
+
+    .width-100 {
+        width: 100%;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .search{
+        margin: 0rem;
+    }
+    input {
+        width: 21rem;
+        height: 3.5rem;
+        padding: 0px 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        outline: none;
+        margin: 26px 20px;
+    }
+    .search_button{
+        width: 12rem;
+        margin-left: 100px;
+    }
+        
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
