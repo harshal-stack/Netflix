@@ -66,7 +66,25 @@ input {
     margin-right: 100px;
 }
 
+.download_section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+   border-bottom: 0.6rem solid #222222;
+}
+.download_image img{
+    width: 35rem;
+    /* margin-left: -9rem; */
 
+}
+.download_section h1{
+    font-size: 50px;
+    width: 80%;
+}
 
 
 
@@ -109,9 +127,9 @@ input {
         margin: auto;
 
     }
-   
-    .grid-center h1{
-        width: 110%;
+
+    .grid-center h1 {
+        width: 170%;
         display: grid;
         place-items: center;
         font-size: 34px;
@@ -133,9 +151,11 @@ input {
         margin-top: 2rem;
         text-align: center;
     }
-    .search{
+
+    .search {
         margin: 0rem;
     }
+
     input {
         width: 21rem;
         height: 3.5rem;
@@ -145,13 +165,14 @@ input {
         outline: none;
         margin: 26px 20px;
     }
-    .search_button{
+
+    .search_button {
         width: 12rem;
         margin-left: 100px;
     }
-        
-    
-    
+
+
+
 }
 
 
@@ -226,7 +247,7 @@ input {
 
 /* ============================================= responsive ==============================================*/
 @media only screen and (max-width: 600px) {
-   
+
 
     .main {
         padding: 0;

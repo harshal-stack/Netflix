@@ -130,5 +130,39 @@ text-center {
         margin-top: 2rem;
         text-align: center;
     }
-    
+
+    .second_section {
+        height: 31rem;
+        display: block;
+    }
+
+    .tvsection {
+        width: 100%;
+        margin-top: 0%;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .tvsection h1 {
+        font-size: 28px;
+    }
+
+    .tvsection h3 {
+        font-size: 18px;
+        font-weight: 350;
+        padding: 0% 9%;
+    }
+
+    .video_section img {
+        width: 23.5rem;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .video_section video {
+        width: 18rem;
+        margin-top: 58.9px;
+        margin-left: 49px;
+        z-index: -122;
+    }
 }
