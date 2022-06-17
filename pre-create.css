@@ -165,4 +165,57 @@ text-center {
         margin-left: 49px;
         z-index: -122;
     }
+
+    .download_section {
+        display: none;
+    }
+
+    .copy_section {
+        display: block;
+        background-color: black;
+        color: white;
+        position: relative;
+    }
+
+    .copy_data {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        padding: 1.5rem 21px;
+    }
+    .copy_data p{
+        margin-top: 22px;
+    }
+
+    .copy_image img {
+        width: 500px;
+    }
+
+    .copy_stranger_image {
+        width: 500px;
+        margin: -0 -28px;
+    }
+
+    .copy_animation {
+        display: flex;
+        align-items: center;
+        border: 2px solid #222222;
+        display: flex;
+        width: 18rem;
+        margin: 0px 80px;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        bottom: 120px;
+        border-radius: 10px;
+        background-color: black;
+        padding: 11px;
+      
+    }
+
+
+    .copy_animation img {
+        width: 15%;
+    }
 }
