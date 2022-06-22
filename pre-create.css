@@ -180,6 +180,30 @@ text-center {
     margin-top: 0px;
 }
 
+.section4{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  'Poppins', sans-serif;
+    border-bottom: 0.6rem solid #222222;
+}
+
+
+.right_new{
+    margin-left: 45px;
+}
+.right_new h1{
+    width: 70%;
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+.right_new h3{
+    width: 85%;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
 /* =================================================== */
 @media only screen and (max-width: 600px) {
     .main {
@@ -216,7 +240,7 @@ text-center {
         font-size: 20px;
         color: white;
         font-family: 'Poppins', sans-serif;
-        margin-left: 45px;
+        margin-left: 20px;
         margin-top: 2rem;
         text-align: center;
     }
@@ -295,7 +319,7 @@ text-center {
         left: 5px;
         color: white;
         font-size: 10px;
-        top: 1rem;
+        top: 3rem;
         width: 10rem;
         text-align: center;
 
@@ -315,7 +339,7 @@ text-center {
     .section3 {
         margin-top: 630px;
         display: block;
-        height: 585px;
+        height: 610px;
     }
 
     .section_data3 {
@@ -338,6 +362,28 @@ text-center {
         top: 23px;
         z-index: -110;
     }
+    .section4{
+        display: block;
+        position: relative;
+        height: 580px;
+    
+    }
+.left_new img{   
+    position: absolute;
+    width: 351px;
+    top: 18rem;
+    left: 20px;
+}
+.right_new h1{
+    text-align: center;
+    width: 90%;
+    font-size: 30px;
+    padding-top: 25px;
+}
+.right_new h3{
+    text-align: center;
+    font-size: 19px;
+}
 
 
 }
