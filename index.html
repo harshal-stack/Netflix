@@ -1,205 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="pre-create.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Julius+Sans+One&family=Poiret+One&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+    <title>Prajwal Dhande</title>
 </head>
-
 <body>
-    <header>
-        <div class="main">
-            <div class="logo_button flex">
-                <div class="logo"><img src="images/logo.png" alt="" srcset=""></div>
-                <div class="right_buttons ">
-                    <div class="languages ">
-                        <label for="pet-select"><i class="fa fa-globe"></i></label>
-                        <select size="1" onclick="window.location.href=this.value;" id="pet-select">
-                            <option value="English">English</option>
-                            <option id="lang" value="https://www.netflix.com/in/">हिन्दी</option>
-                        </select>
-                        <button class="hedear_button">Sign in</button>
-                    </div>
-                </div>
-            </div>
-            <div class="center">
-                <div class="header_data grid-center">
-                    <h1>Unlimited movies, TV shows and more.</h1>
-                    <p>Watch anywhere. Cancel anytime.</p>
-                </div>
-                <p class="width-100">Ready to watch? Enter your email to create or restart your membership.</p>
-                <div class="search">
-                    <div class="center">
-                        <form onsubmit="submit()" action="">
-                            <input id="email" type="text" placeholder="Enter your email" required="@gmail.com">
-                            <input class="new_submit" type="submit" required="@gmail.com">
-                        </form>
-                    </div>
-                </div>
-            </div>
-    </header>
-    <section class="second_section">
-        <div class="tvsection">
-            <h1>Enjoy on your TV.</h1>
-            <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
-        </div>
-        <div class="video_section">
-            <img src="images/tv.png" alt="" srcset="">
-            <video autoplay loop muted plays-inline>
-                <source src="images/1.m4v">
-            </video>
-        </div>
-    </section>
-    <section class="download">
-        <div class="left">
-            <img src="images/mobile.jpeg" alt="">
-        </div>
-        <div class="left_content">
-            <img src="images/boxshot.png" alt="" srcset="">
-            <p style="color:
-            #0071eb;">Downloading. . . .</p>
-            <img class="gif_img" src="images/download _anim.gif" alt="" srcset="">
-        </div>
+    <div>
+        <nav>
+            <a href="#">home</a>
+        </nav>
+    </div>
+    <div>
+        <h1>i'm prajwal</h1>
+        <h2>a web developer</h2>
+    </div>
+<main>
+    <div>
+       <p>about myself</p> 
+    </div>
+</main>
 
-        <div class="right">
-            <h1>Download your shows to watch offline.</h1>
-            <br>
-            <h3>Save your favourites easily and always have something to watch.</h3>
-        </div>
-    </section>
-    <section class="section3">
-        <div class="section_data3">
-            <h1>Watch everywhere.</h1>
-            <p>Stream unlimited movies and TV shows on</p>
-        </div>
-        <div class="section3_section">
-            <img src="images/monitor.png" alt="" srcset="">
-            <video autoplay loop muted plays-inline>
-                <source src="images/2.m4v">
-            </video>
-        </div>
-    </section>
-    <section class="section4">
-        <div class="left_new">
-            <img src="images/kids.png" alt="">
-        </div>
-        <div class="right_new">
-            <h1>Create profiles for children.</h1>
-            <h3>Send children on adventures with their favourite characters in a space made just for them—free with your
-                membership.</h3>
-        </div>
-    </section>
-    <section class="accordition">
-        <h1>Frequently Asked Questions</h1>
-        <div class="accmain">
-            <div id="plus" class="accdata">
-                <h2>What is Netflix?</h2>
-                <img onclick="show()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana1" class="accdata1">
-                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
-                    documentaries and more – on thousands of internet-connected devices<br>
-                    <br>
-                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
-                    price. There's always something new to discover, and new TV shows and movies are added every week!
-                </p>
-            </div>
-            <div id="plus" class="accdata_2">
-                <h2>How Much Netflix Cost Does?</h2>
-                <img onclick="show2()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana2" class="accdata2">
-                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
-                    documentaries and more – on thousands of internet-connected devices<br>
-                    <br>
-                    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
-                    price. There's always something new to discover, and new TV shows and movies are added every week!
-                </p>
-            </div>
-            <div id="plus" class="accdata_3">
-                <h2>Where Can i Watch?</h2>
-                <img onclick="show3()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana3" class="accdata3">
-                <p>
-                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
-                    netflix.com
-                    from your personal computer or on any internet-connected device that offers the Netflix app,
-                    including
-                    smart TVs, smartphones, tablets, streaming media players and game consoles.
-                    <br><br>
-                    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads
-                    to
-                    watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
-                </p>
-            </div>
-            <div id="plus" class="accdata_4">
-                <h2>How Do I Cancel?</h2>
-                <img onclick="show4()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana4" class="accdata4">
-                <p>
-                    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
-                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
-                </p>
-            </div>
-
-            <div id="plus" class="accdata_5">
-                <h2>What I Can Watch On Netflix?</h2>
-                <img onclick="show5()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana5" class="accdata5">
-                <p>
-                    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
-                    account online in two clicks. There are no cancellation fees – start or stop your account anytime.
-                </p>
-            </div>
-
-
-            <div id="plus" class="accdata_6">
-                <h2>Is Netflix Good For Kids?</h2>
-                <img onclick="show6()" id="plus" src="images/icons8-plus-50.png" alt="" srcset="">
-            </div>
-            <div id="nana6" class="accdata6">
-                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
-                    family-friendly TV shows and films in their own space.
-
-                    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
-                    content kids can watch and block specific titles you don’t want kids to see.
-                </p>
-            </div>
-        </div>
-        </div>
-        <p style="text-align: center; font-size: 25px; font-family: 'Poppins', sans-serif;margin-top: 5rem;">Ready to
-            watch? Enter your email to create or restart your membership.</p>
-        <div class="search">
-            <div class="center">
-                <form onsubmit="submit()" action="">
-                    <input id="email" type="text" placeholder="Enter your email" required="@gmail.com">
-                </form>
-            </div>
-            <button class="for_msubmit">Sign in</button>r
-        </div>
-    </section>
-    <footer>
-        <div class="mainfooter">
-            <p>Questions? Call 000-800-040-1843</p>
-        </div>
-        <div class="1stfooter">
-            <ul>
-                <li>FAQ</li>
-                <li>Invester Relations</li>
-                <li>privacy</li>
-                <li>Speed Test</li>
-            </ul>
-        </div>
-    </footer>
-    <script src="new.js"></script>
 </body>
-
 </html>
